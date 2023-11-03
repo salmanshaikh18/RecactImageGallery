@@ -1,8 +1,30 @@
 #parent {
     display: grid;
     width: 100vw;
-    grid-template-columns: repeat(4,200px);
-    gap: 10px;
+    grid-template-columns: repeat(4, 250px);
     justify-content: center;
-    padding: 10px;
+}
+
+@media (min-width: 1250px) {
+    #parent {
+        grid-template-columns: repeat(5, 250px);
+    }
+}
+
+@media (max-width: 1000px) {
+    #parent {
+        grid-template-columns: repeat(3, 250px)
+    };
+}
+
+@media (max-width: 767px) {
+    #parent {
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
+@media (max-width: 550px) {
+    #parent {
+        grid-template-columns: repeat(1, 300px);
+    }
 }
