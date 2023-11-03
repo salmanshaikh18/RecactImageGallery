@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+} 
+
+.imgBox {
+    height: 200px;
+    width: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #fff;
+    margin: 20px 10px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+   
+    border-radius: 10px;
+    cursor: pointer;
+    
+    background-position: center;
+    background-size: contain;
+}
+
+.imgBox:hover .image{
+    scale: 1.2;
+    transition: 0.7s all ease;
+}
+
+.imgBox:hover {
+    box-shadow: 0 0 5px salmon;
+}
+
+/* @media (max-width: 767px) {
+    .image {
+        height: 100%;
+    }
+} */
