@@ -1,8 +1,6 @@
-# React + Vite
+# React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tasks:
+-> In this mini project, we are required to create an image gallery using React.
+-> The gallery should fetch a set of images from <a href='https://drive.google.com/file/d/1O7j0icYwTGiqZLUWm8iff6bCb72aiqW2/view'>Api</a>, limit the result to 20 images, and display them in a user-friendly UI.
+-> Upon clicking on any image, the user should be redirected to a single image view, where additional information, such as the tile and description of the image, is shown.
