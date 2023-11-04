@@ -18,6 +18,7 @@ const HomePage = () => {
     }, [])
 
   return (
+    
     <div id="parent">
         {
             data?.map((e,i)=>{
