@@ -19,7 +19,7 @@ const DetailsPage = () => {
   return (
     <div id="singlePhoto">
       <div className="detailsWrapper">
-        <img className='image' src={data?.url} alt="" />
+        <img className='detailsImage' src={data?.url} alt="" />
         <div>
           <h1 className='title'>{data?.title}</h1>
           <p className='description'>
