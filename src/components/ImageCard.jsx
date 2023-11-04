@@ -6,7 +6,7 @@ const ImageCard = ({ imageUrl, id }) => {
     const navigate = useNavigate()
 
     const redirectToDetailsPage = () => {
-        navigate(`/details/:${id}`)
+        navigate(`/details/${id}`)
     }
 
     return (

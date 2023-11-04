@@ -1,0 +1,38 @@
+#singlePhoto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.detailsWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+}
+
+@media (max-width: 767px) {
+
+    .detailsWrapper {
+        flex-direction: column;
+        gap: 5px;
+        width: 70%;
+    }
+
+    .image {
+        height: 200px;
+        width: 250px;
+    }
+
+}
