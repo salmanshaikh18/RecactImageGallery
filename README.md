@@ -19,4 +19,4 @@
 # Details Page
 <img src='./src/assets/details.png' alt='Details' />
 
-## Check it out live here: <a href='https://dev.imagegallery.netlify.app' >Click On Me 😎</a>
+## Check it out live here: <a href='https://dev-imagegallery.netlify.app/' >Click On Me 😎</a>
