@@ -18,3 +18,5 @@
 
 # Details Page
 <img src='./src/assets/details.png' alt='Details' />
+
+# Check it out live here: https://dev.imagegallery.netlify.app
